@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.8.17;
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "./erc20fevm.sol";
 
 // This is the main building block for smart contracts.
 contract Bridge is ERC20 {
